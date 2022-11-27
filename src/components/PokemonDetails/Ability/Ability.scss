@@ -1,0 +1,37 @@
+//Scss Beautifier
+//mobile first approach
+//Ability
+@import "../../../styles/Breakpoint.scss";
+$color_1: #2e3156;
+$font-family_1: "Roboto";
+
+//600 px below for mobile
+.pokemon__ability {
+  position: absolute;
+  width: 180px;
+  height: 25px;
+  left: 16px;
+  top: 669px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+@media only screen and (min-width: $min-width-desktop) {
+  .pokemon__ability {
+    position: absolute;
+    width: 180px;
+    height: 25px;
+    left: 40px;
+    top: 500px;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_1;
+    text-transform: capitalize;
+  }
+}

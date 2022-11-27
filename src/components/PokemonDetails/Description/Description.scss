@@ -1,0 +1,122 @@
+//Scss Beautifier
+//mobile first approach
+//Description
+@import "../../../styles/Breakpoint.scss";
+
+$color_1: #ffffff;
+$color_2: white;
+$color_3: #2e3156;
+$color_4: #2e3156;
+$font-family_1: "Roboto";
+$font-family_2: "Roboto";
+$background-color_1: #2e3156;
+
+//600 px below for mobile
+.pokemon__readmore {
+  position: absolute;
+  width: 350px;
+  height: 550px;
+  left: 20px;
+  top: 450px;
+  background: #2e3156;
+  box-shadow: 0px 4px 20px #2e3156;
+  z-index: 1;
+  p {
+    position: absolute;
+    width: 290px;
+    height: 180px;
+    left: 10px;
+    top: 20px;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: $color_1;
+  }
+}
+.readmore__btn {
+  color: $color_2;
+  position: absolute;
+  left: 280px;
+  top: -12px;
+  border-radius: 50%;
+  background-color: $background-color_1;
+  border: 1px solid #ffffff;
+}
+.pokemon__description {
+  position: absolute;
+  width: 150px;
+  height: 229px;
+  left: 180px;
+  top: 200px;
+  font-family: $font-family_2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: $color_3;
+  overflow: hidden;
+  text-align: left;
+}
+.readmore {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media only screen and (min-width: $min-width-desktop) {
+  .pokemon__description {
+    position: absolute;
+    width: 433px;
+    height: 200px;
+    left: 310px;
+    top: 119px;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $color_4;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .pokemon__readmore {
+    position: absolute;
+    width: 670px;
+    height: 250px;
+    left: 80px;
+    top: 327px;
+    background: #2e3156;
+    box-shadow: 0px 4px 20px #2e3156;
+    z-index: 1;
+    p {
+      position: absolute;
+      width: 586px;
+      height: 180px;
+      left: 10px;
+      top: 20px;
+      font-family: $font-family_1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: left;
+      color: $color_1;
+    }
+  }
+  .readmore__btn {
+    color: $color_2;
+    position: absolute;
+    left: 580px;
+    top: -12px;
+    border-radius: 50%;
+    background-color: $background-color_1;
+    border: 1px solid #ffffff;
+  }
+  .readmore {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

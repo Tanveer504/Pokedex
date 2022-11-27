@@ -1,0 +1,74 @@
+@import '../../../styles/color.scss';
+@import "../../../styles/Breakpoint.scss";
+
+//Scss Beautifier
+//mobile first approach
+//types
+
+//600 px below for mobile
+.PokemonDetail__Types {
+  position: absolute;
+  width: 43px;
+  height: 25px;
+  left: 215px;
+  top: 669px;
+  span {
+    padding: 1px;
+    border: 1px solid #2e3156;
+    border-radius: 5px;
+    margin-right: 6px;
+    text-transform: capitalize;
+  }.ghost {
+  background: $background-color_1;
+}
+.electric {
+  background: $background-color_2;
+}
+.bug {
+  background: $background-color_3;
+}
+.poison {
+  background: $background-color_4;
+}
+.normal {
+  background: $background-color_5;
+}
+.flying {
+  background: $background-color_6;
+}
+.fairy {
+  background: $background-color_7;
+}
+.fire {
+  background: $background-color_8;
+}
+.grass {
+  background: $background-color_9;
+}
+.water {
+  background: $background-color_10;
+}
+.ground {
+  background: $background-color_11;
+}
+.rock {
+  background: $background-color_12;
+}
+}
+
+@media only screen and (min-width: $min-width-desktop) {
+  .PokemonDetail__Types {
+    box-sizing: border-box;
+    position: absolute;
+    width: 39px;
+    height: 24px;
+    left: 245px;
+    top: 500px;
+    span {
+      padding: 1px;
+      border: 1px solid #2e3156;
+      border-radius: 5px;
+      margin-right: 6px;
+    }
+  }
+}

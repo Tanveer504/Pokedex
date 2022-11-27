@@ -1,0 +1,60 @@
+//Scss Beautifier
+//mobile first approach
+//pokemon images
+
+.ghost {
+    img {
+      background-image: linear-gradient(to top, #cfd9df 0%, #d7c2d7 100%);
+    }
+  }
+  .electric {
+    img {
+      background-image: linear-gradient(to right, #f83600 0%, #e2e2a0 100%);
+    }
+  }
+  .bug {
+    img {
+      background-image: linear-gradient(to top, #c1e0c8 0%, #c1e0c8 100%);
+    }
+  }
+  .normal {
+    img {
+      background-image: linear-gradient(180deg, #ddcbd0 0%, #ddcbd0 100%);
+    }
+  }
+  .flying {
+    img {
+      background-image: linear-gradient(180deg, 0%, #b2d2ed 100%);
+    }
+  }
+  .fairy {
+    img {
+      background-image: linear-gradient(
+        to top,
+        #ff9a9e 0%,
+        #fecfef 99%,
+        #e4c0cf 100%
+      );
+    }
+  }
+  .fire {
+    img {
+      background-image: linear-gradient(120deg, #edc2c4 0%, #edc2c4 100%);
+    }
+  }
+  .grass {
+    img {
+      background-image: linear-gradient(180deg, #c0d4c8 0%, #cfb7ed 100%);
+    }
+  }
+  .water {
+    img {
+      background-image: linear-gradient(120deg, #cbd5ed 0%, #cbd5ed 100%);
+    }
+  }
+  .ground {
+    img {
+      background-image: linear-gradient(315deg, #772f1a 0%, #f4d1a6 74%);
+    }
+  }
+  

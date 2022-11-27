@@ -1,0 +1,37 @@
+//Scss Beautifier
+//mobile first approach
+//egg groups
+@import "../../../styles/Breakpoint.scss";
+$color_1: #2e3156;
+$font-family_1: "Roboto";
+
+//600 px below for mobile
+.PokemonDetail__eggGroup {
+  position: absolute;
+  width: 117px;
+  height: 25px;
+  left: 195px;
+  top: 582px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+@media only screen and (min-width: $min-width-desktop) {
+  .PokemonDetail__eggGroup {
+    position: absolute;
+    width: 117px;
+    height: 25px;
+    left: 610px;
+    top: 400px;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_1;
+    text-transform: capitalize;
+  }
+}

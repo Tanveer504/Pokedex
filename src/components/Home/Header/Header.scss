@@ -1,0 +1,77 @@
+//Scss Beautifier
+//mobile first approach
+//Header
+@import "../../../styles/Breakpoint.scss";
+$color_1: #2e3156;
+$color_2: #5d5f7e;
+$font-family_1: sans-serif;
+$font-family_2: "Roboto";
+
+//600 px below for mobile
+.pokemon__header {
+  display: block;
+  font-family: $font-family_1;
+  margin: 50px 30px 0px 30px;
+
+  h1 {
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: $color_1;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #5d5f7e;
+    text-align: left;
+  }
+
+  h2 {
+    font-family: $font-family_1;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 23px;
+    color: $color_2;
+    text-align: left;
+  }
+}
+//600px and above - desktop
+@media only screen and (min-width: $min-width-desktop) {
+  .pokemon__header {
+    display: flex;
+    align-items: center;
+    font-family: $font-family_1;
+    margin-left: 75px !important;
+    margin: 20px 0px;
+
+    h1 {
+      font-family: $font-family_2;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: 0.06em;
+      color: $color_1;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-right: 20px;
+      border-right: 1px solid black;
+      border-bottom: none;
+    }
+
+    h2 {
+      font-family: $font-family_1;
+      padding-left: 23px;
+      font-family: $font-family_2;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: $color_2;
+    }
+  }
+}

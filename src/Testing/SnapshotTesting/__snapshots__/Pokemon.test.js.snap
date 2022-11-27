@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have the right Pokemon Card component snapshot 1`] = `
+<div
+  className="card-wrapper"
+>
+  <div
+    className="l1_container"
+  >
+    <div
+      className="search"
+    >
+      <h6>
+        Search By
+      </h6>
+      <div
+        className="input input-group"
+        data-testid="search"
+      >
+        <input
+          aria-label="Dollar amount (with dot and two decimal places)"
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Name or Number "
+          type="text"
+        />
+        <button
+          className="btn btn-outline-secondary"
+          disabled={false}
+          id="button-addon1"
+          type="button"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="l1_container_right"
+    >
+      <div
+        className="pokemon__types"
+      >
+        <h6>
+          Type
+        </h6>
+        <div
+          className="dropdown dropdown"
+          data-testid="dropdown"
+        >
+          <button
+            aria-expanded={false}
+            className="dropdown-toggle btn btn-success"
+            disabled={false}
+            id="dropdown-basic"
+            onClick={[Function]}
+            type="button"
+          >
+            Normal
+          </button>
+        </div>
+      </div>
+      <div
+        className="pokemon__genders"
+      >
+        <h6>
+          Gender
+        </h6>
+        <div
+          className="dropdown dropdown"
+        >
+          <button
+            aria-expanded={false}
+            className="dropdown-toggle btn btn-success"
+            disabled={false}
+            id="dropdown-basic"
+            onClick={[Function]}
+            type="button"
+          >
+            Normal
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="hamburger"
+      onClick={[Function]}
+    >
+      <img
+        alt="image1"
+        className="toggle_Menu"
+        src="https://mdbootstrap.com/img/svg/hamburger1.svg?color=ffffff"
+      />
+    </div>
+  </div>
+  <div
+    className="flex1"
+  />
+</div>
+`;

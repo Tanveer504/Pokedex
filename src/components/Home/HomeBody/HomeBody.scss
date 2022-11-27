@@ -1,0 +1,190 @@
+//Scss Beautifier
+//mobile first approach
+//HomeBody
+@import "../../../styles/Breakpoint.scss";
+$color_1: #2e3156;
+$color_2: #2e3156;
+$font-family_1: "Roboto";
+$font-family_2: "Roboto";
+
+//600 px below for mobile
+.pokemongrid {
+  display: inline-flex;
+  margin: 0px 15px 0px 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-check-label {
+  margin-top: 0px;
+}
+
+.pokemon__search {
+  h6 {
+    display: none;
+  }
+
+  display: flex;
+}
+
+.input-group input {
+  background: #c9dde2;
+}
+
+.search__filter {
+  display: none;
+}
+
+label {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.input {
+  width: 600px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  float: left;
+  margin: 30px;
+}
+
+.form-control {
+  margin-left: 20px;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+}
+
+.hamburger {
+  display: flex;
+  flex: 0.5;
+}
+
+.toggle_Menu {
+  background: #2e3156;
+  border-radius: 8px;
+}
+
+.homebody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtered {
+  position: absolute;
+  width: 337px;
+  height: 403px;
+  left: 28px;
+  top: 63px;
+  background: #ffffff;
+  box-shadow: 0px 4px 14px rgba(46, 49, 86, 0.4);
+  border-radius: 8px;
+}
+
+.filtered__name {
+  position: absolute;
+  width: 72px;
+  height: 29px;
+  left: 51px;
+  top: 91px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  color: $color_1;
+}
+
+.filtered__cancel {
+  position: absolute;
+  left: 75.9%;
+  top: 11.8%;
+  border: 1px solid #2e3156;
+  border-radius: 50%;
+}
+
+.mobilefilter {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+}
+
+.mobilefilter__type {
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  font-family: $font-family_2;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: $color_2;
+}
+
+.mobilefilter__gender {
+  position: absolute;
+  left: 50px;
+  top: 270px;
+  font-family: $font-family_2;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: $color_2;
+}
+
+@media only screen and (min-width: $min-width-desktop) {
+  .hamburger {
+    display: none;
+  }
+
+  .pokemongrid {
+    display: inline-flex;
+    margin: 0px 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .pokemon__search {
+    margin-left: 50px;
+    display: flex;
+    flex: 0.48;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 40px;
+
+    h6 {
+      display: inline;
+      margin-left: 29px;
+      font-family: $font-family_1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+
+  .homebody {
+    display: flex;
+    flex: 1;
+  }
+
+  .pokemon__types {
+    flex: 0.5;
+    text-align: left;
+  }
+
+  .search__filter {
+    display: flex;
+    flex: 0.5;
+  }
+}

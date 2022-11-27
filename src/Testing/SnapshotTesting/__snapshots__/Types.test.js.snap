@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have the ability component snapshot 1`] = `
+<div
+  className="PokemonDetail__Types"
+/>
+`;

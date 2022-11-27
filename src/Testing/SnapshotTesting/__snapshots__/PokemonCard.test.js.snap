@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should have the ability component snapshot 1`] = `
+<div
+  className="card-container undefined"
+>
+  <div
+    className="card-container_image"
+  >
+    <a
+      href="/undefined"
+      onClick={[Function]}
+    >
+      <img />
+    </a>
+  </div>
+  <div
+    className="name"
+  >
+    <h3 />
+    <h6>
+      00
+    </h6>
+  </div>
+</div>
+`;

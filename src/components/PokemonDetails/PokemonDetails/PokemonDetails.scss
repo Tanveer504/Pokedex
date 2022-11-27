@@ -1,0 +1,408 @@
+//Scss Beautifier
+//mobile first approach
+//pokemon details
+@import "../../../styles/Breakpoint.scss";
+$color_1: #2e3156;
+$color_2: #2e3156;
+$font-family_1: "Roboto";
+$font-family_2: "Roboto";
+$background-color_1: #deeded;
+$background-color_2: #5d5f7e;
+
+//600 px below for mobile
+.PokemonDetail {
+  position: absolute;
+  width: 450px;
+  height: 1000px;
+  left: -2px;
+  top: 0px;
+  background: #deeded;
+}
+.PokemonDetail__Image {
+  box-sizing: border-box;
+  position: absolute;
+  width: 159px;
+  height: 221px;
+  left: 30px;
+  top: 200px;
+  background: linear-gradient(180deg, #edc2c4 0%, #b2d2e8 100%);
+  border: 1px dashed #2e3156;
+  border-radius: 8px;
+}
+.seprator {
+  display: none;
+}
+.wordseprator {
+  display: none;
+}
+.pokemondetail__name {
+  position: absolute;
+  width: 182px;
+  height: 35px;
+  left: 30px;
+  top: 100px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: $color_1;
+  text-transform: uppercase;
+}
+.pokemondetail__number {
+  position: absolute;
+  width: 55px;
+  height: 35px;
+  left: 30px;
+  top: 130px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 35px;
+  letter-spacing: 0.06em;
+  color: $color_1;
+}
+.height {
+  position: absolute;
+  width: 48px;
+  height: 25px;
+  left: 30px;
+  top: 467px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.weight {
+  position: absolute;
+  width: 51px;
+  height: 25px;
+  left: 207px;
+  top: 467px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__height {
+  position: absolute;
+  width: 27px;
+  height: 25px;
+  left: 30px;
+  top: 495px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__weight {
+  position: absolute;
+  width: 55px;
+  height: 25px;
+  left: 190px;
+  top: 495px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__gender {
+  position: absolute;
+  width: 72px;
+  height: 25px;
+  left: 30px;
+  top: 554px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__egggroup {
+  position: absolute;
+  width: 83px;
+  height: 25px;
+  left: 206px;
+  top: 554px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__ability {
+  position: absolute;
+  width: 59px;
+  height: 25px;
+  left: 29px;
+  top: 641px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+.pokemondetail__types {
+  position: absolute;
+  width: 44px;
+  height: 25px;
+  left: 207px;
+  top: 641px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__weak {
+  position: absolute;
+  width: 99px;
+  height: 25px;
+  left: 31px;
+  top: 737px;
+  font-family: $font-family_1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: $color_1;
+}
+.pokemondetail__cancel {
+  position: absolute;
+  left: 70%;
+  top: 10%;
+  border: 1px solid #2e3156;
+  border-radius: 50%;
+  background-color: $background-color_1;
+}
+@media only screen and (min-width: $min-width-desktop) {
+  .PokemonDetail {
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    left: 250px;
+    top: 0px;
+    background: #deeded;
+    box-shadow: -10px 4px 130px #2e3156;
+  }
+  .PokemonDetail__Image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 199px;
+    height: 277px;
+    left: 65px;
+    top: 41px;
+    border: 1px dashed #2e3156;
+    border-radius: 8px;
+  }
+  .pokemondetail__name {
+    text-transform: uppercase;
+    position: absolute;
+    width: 182px;
+    height: 35px;
+    left: 310px;
+    top: 41px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: $color_2;
+  }
+  .seprator {
+    position: absolute;
+    width: 53px;
+    height: 0px;
+    left: 540px;
+    top: 50px;
+    background-color: $background-color_2;
+    border: 1px solid #5d5f7e;
+    transform: rotate(90deg);
+    display: block;
+  }
+  .pokemondetail__number {
+    position: absolute;
+    width: 55px;
+    height: 35px;
+    left: 580px;
+    top: 41px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: $color_2;
+  }
+  .wordseprator {
+    position: absolute;
+    width: 53px;
+    height: 0px;
+    left: 650px;
+    top: 50px;
+    border: 1px solid #5d5f7e;
+    background-color: $background-color_2;
+    transform: rotate(90deg);
+    display: block;
+  }
+  .pokemondetail__cancel {
+    position: absolute;
+    left: 725px;
+    top: 40px;
+    border: 1px solid #2e3156;
+    border-radius: 50%;
+  }
+  .height {
+    position: absolute;
+    width: 48px;
+    height: 25px;
+    left: 65px;
+    top: 375px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__height {
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    left: 65px;
+    top: 400px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .weight {
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 240px;
+    top: 375px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__weight {
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    left: 230px;
+    top: 400px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__gender {
+    position: absolute;
+    width: 72px;
+    height: 25px;
+    left: 425px;
+    top: 375px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__egggroup {
+    position: absolute;
+    width: 83px;
+    height: 25px;
+    left: 620px;
+    top: 375px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__ability {
+    position: absolute;
+    width: 59px;
+    height: 25px;
+    left: 65px;
+    top: 475px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__types {
+    position: absolute;
+    width: 44px;
+    height: 25px;
+    left: 240px;
+    top: 475px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .pokemondetail__weak {
+    position: absolute;
+    width: 99px;
+    height: 25px;
+    left: 425px;
+    top: 475px;
+    font-family: $font-family_2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: $color_2;
+  }
+  .Pokemon__Stats {
+    position: absolute;
+    width: 675px;
+    height: 165px;
+    left: 60px;
+    top: 604px;
+    background: #b0d2d2;
+    border-radius: 8px;
+  }
+  .stats__Name {
+    position: absolute;
+    left: 0%;
+    right: 84.25%;
+    top: 10.87%;
+    bottom: 43.98%;
+    font-family: $font-family_1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: $color_1;
+  }
+}
